@@ -8,8 +8,8 @@
           <img src="{{ asset('backend/adminlte/dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>{{ Auth::user('name') }}</p>
-          {{ Auth::user('email') }}
+          <p>{{ Auth::user()->name }}</p>
+          {{ Auth::user()->email }}
         </div>
       </div>
       <!-- search form -->
